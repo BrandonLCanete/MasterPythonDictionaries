@@ -44,7 +44,9 @@ employee_object_five = {
     "employee_schedule_work" : "Monday to Saturday"
 }
 
+# Hold the employee dictionaries to employees variable
 employees = [employee_object_one,employee_object_two,employee_object_three,employee_object_four,employee_object_five]
-
+# Loop through the dictionaries
 for employee in employees:
+    # Print the data
     print(f"Employee Name: {employee.get('employee_name')}, Employee Job Title: {employee.get('employee_job_title')}, Employee Department: {employee.get('employee_department')}, Employee Salary : {employee.get('employee_salary')}, Employee Schedule Work: {employee.get('employee_schedule_work')}")
